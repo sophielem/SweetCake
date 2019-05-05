@@ -1,0 +1,64 @@
+h2 {
+	text-shadow:10px 10px 10px  black;
+}
+
+
+main img {
+	margin-left:33%;
+	margin-top:70px;
+}
+
+.title {
+	text-decoration:underline;
+}
+
+#recipe {
+	background-color:RGBA(255, 255, 255, 0.7);
+	height:-webkit-fill-available;
+	border-radius:30px;
+	margin-right: 10%;
+	margin-left: 5%;
+	margin-top: 50px;
+	padding-bottom: 5%;
+	padding-top: 2%;
+}
+
+#ingredients{
+	position: relative;
+	float: left;
+	line-height:35px;
+	margin-left:10%;
+}
+
+.list{
+	padding-bottom: 30px;
+	}
+
+#steps{
+	line-height:35px;
+	margin-left: 35%;
+	margin-right: 5%;
+}
+
+.step{
+	padding-bottom:30px;
+}
+
+acronym {
+	font-style:italic;
+	color:red;
+}
+
+acronym:hover {
+	transition-property:color, text-decoration, font-size;
+	transition-duration:5s;
+	transition-delay:0.2s;
+
+	color:purple;
+	text-decoration:none;
+	font-size:1.1em;
+}
+
+ul{
+	list-style-type: square
+}

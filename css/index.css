@@ -1,0 +1,30 @@
+#idea {
+	background-color:RGBA(255, 255, 255, 0.7);
+	width:1200px;
+	height:500px;
+	border-radius:30px;
+	margin-top: 250px;
+	margin-left:15%;
+}
+
+#idea b{
+	font-size:30px;
+	margin-left:auto;
+}
+
+#idea #img1 {
+	margin-top:8%;
+	position:absolute;
+	margin-left:-8%;
+	z-index:1;
+	border-radius:50%;
+
+}
+
+#idea #img2 {
+	margin-top:8%;
+	margin-left:12%;
+	position:absolute;
+	z-index:0;
+	border-radius:50%;
+}

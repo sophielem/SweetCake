@@ -1,0 +1,185 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+BODY, html{
+	background-color: #14141f;
+}
+
+h1 {
+	margin-top:60px;
+	font-size:55px;
+	text-align:center;
+	font-family:"Birds of Paradise",
+			'arial',
+			"sans serif";
+	color: #993333;
+	background-color: #666666;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+}
+
+h2 {
+	margin-top:85px;
+	font-size:40px;
+	text-align:center;
+	font-family:"Birds of Paradise",
+			'arial',
+			"sans serif";
+	color: #993333;
+}
+
+nav {
+    list-style-type: none;
+    margin-top: -60px;
+	position: fixed;
+    background-color: #14141f;
+}
+
+nav li {float: left;}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {background-color: #993333;}
+
+nav li a.active {background-color: #993333;}
+
+nav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    nav li.right,
+    nav li {float: none;}
+}
+
+
+main {
+	margin-left:80px;
+}
+
+
+footer {
+    padding: 5em;
+    background: #1f2329;
+    text-align: center;
+    color: white;
+	margin-top: 80px;
+}
+
+footer .copyright {
+    font-size: 0.8em;
+    line-height: 1em;
+}
+
+/* Icônes */
+
+ul {
+    margin: 0 0 2em 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: none;
+}
+
+ul.icons {
+    cursor: default;
+}
+
+ul.icons li {
+    line-height: 1em;
+    padding-left: 0.5em;
+    display: inline-block;
+}
+
+ul.copyright li {
+    line-height: 1em;
+    padding-left: 0.5em;
+    padding-top: 1em;
+    display: inline-block;
+}
+
+.icon.circle.fa-twitter {
+    background: #70aecd;
+    color: #fff;
+}
+
+.icon.circle.fa-twitter:hover {
+    background: #7fb7d2;
+}
+
+.icon.circle {
+    height: 2.25em;
+    width: 2.25em;
+    left: 0;
+    top: 0;
+    border: 0;
+    border-radius: 100%;
+    font-size: 1.25em;
+    line-height: 2.25em;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.icon {
+    position: relative;
+    text-decoration: none;
+}
+
+.icon.circle:hover {
+    top: -0.2em;
+}
+
+.icon.circle.fa-twitter {
+    background: #70aecd;
+    color: #fff;
+}
+
+.icon.circle.fa-twitter:hover {
+    background: #7fb7d2;
+}
+
+.icon.circle.fa-facebook {
+    background: #7490c3;
+    color: #fff;
+}
+
+.icon.circle.fa-facebook:hover {
+    background: #829bc9;
+}
+
+.icon.circle.fa-google-plus {
+    background: #db6b67;
+    color: #fff;
+}
+
+.icon.circle.fa-google-plus:hover {
+    background: #df7b77;
+}
+
+.icon.circle.fa-github {
+    background: #dcad8b;
+    color: #fff;
+}
+
+.icon.circle.fa-github:hover {
+    background: #e1b89b;
+}
+
+.fa {
+    font-size: 50px;
+    color: #999;
+}
